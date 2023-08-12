@@ -1,3 +1,5 @@
+// Take snapshots of home page carousel images using Percy plugin.
+
 describe("HOME PAGE IMAGE CAROUSEL SNAPSHOT", () => {
   it("load home page", () => {
     cy.baseUrl();
