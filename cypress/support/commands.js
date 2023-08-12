@@ -1,4 +1,5 @@
 import { addMatchImageSnapshotCommand } from "cypress-image-snapshot/command";
+import "@percy/cypress";
 
 // Load baseUrl and verify
 Cypress.Commands.add("baseUrl", () => {
